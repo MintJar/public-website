@@ -1,0 +1,35 @@
+.sidebar__nav {
+	padding: 0 $gutter 0;
+}
+
+.sidebar__nav__list {
+
+}
+
+.sidebar__nav__item {
+	opacity: .3;
+	filter: grayscale( 1 );
+
+	transition: 300ms opacity, filter ease-in;
+
+	&:hover, &--active {
+		filter: grayscale( 0 );
+		opacity: 1;
+	}
+}
+
+.sidebar__nav__link {
+	display: inline-block;
+	width: 100%;
+	padding: ($gutter / 2 ) 0;
+
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: .9rem;
+	font-weight: 500;
+	color: $black;
+}
+
+.sidebar__nav__emo {
+	padding-right: 10px;
+}

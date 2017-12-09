@@ -1,0 +1,16 @@
+@mixin wrap($margin-top, $margin-bottom) {
+	max-width: $container-width;
+	margin: $margin-top auto $margin-bottom;
+	padding: 0 10px;
+}
+
+//
+// Media Query mixin
+// @include mq(#point, #query1, #query2);
+//
+
+@mixin mq($breakpoint, $query1: min, $query2: width) {
+    @media (#{$query1}-#{$query2}: $breakpoint) {
+        @content;
+    }
+}

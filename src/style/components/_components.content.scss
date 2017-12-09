@@ -1,0 +1,14 @@
+.content {
+	display: inline-block;
+	width: calc( 100vw - #{ $sidebar-width });
+
+	padding: $gutter;
+
+	// background: green;
+}
+
+.wrapper {
+	display: block;
+	max-width: $container-width;
+	margin: 0 auto;
+}

@@ -1,0 +1,14 @@
+body, html {
+	width: 100%;
+	height: 100%;
+
+	font-family: $font-stack;
+	font-size: 15px;
+	background: $white;
+}
+
+// Style selected text.
+::selection {
+	color: $white;
+	background: $black;
+}

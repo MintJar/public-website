@@ -1,0 +1,19 @@
+.sidebar {
+	display: inline-block;
+	width: $sidebar-width;
+	height: calc( 100vh );
+
+	vertical-align: top;
+
+	-webkit-box-shadow: 0 0 15px 1px rgba(0,0,0,.1);
+	box-shadow: 0 0 15px 1px rgba(0,0,0,.1);
+}
+
+.sidebar__logo {
+	padding: $gutter;
+
+	// text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 1.8rem;
+	font-weight: 500;
+}
