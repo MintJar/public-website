@@ -1,7 +1,8 @@
 .content {
 	display: inline-block;
 	width: calc( 100vw - #{ $sidebar-width });
-
+	min-height: calc( 100vh - 10px );
+	margin-left: #{ $sidebar-width };
 	padding: $gutter;
 
 	// background: green;
@@ -11,4 +12,19 @@
 	display: block;
 	max-width: $container-width;
 	margin: 0 auto;
+}
+
+.highlight {
+	margin: 0 -#{ $gutter };
+	padding: $gutter;
+
+	&--dark {
+		color: $white;
+		background: $black;
+	}
+
+	&--light {
+		color: $black;
+		background: $light-grey;	
+	}
 }

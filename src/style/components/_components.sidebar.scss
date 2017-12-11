@@ -1,4 +1,6 @@
 .sidebar {
+	position: fixed;
+	top: 0;
 	display: inline-block;
 	width: $sidebar-width;
 	height: calc( 100vh );
@@ -10,10 +12,21 @@
 }
 
 .sidebar__logo {
+	position: relative;
 	padding: $gutter;
 
-	// text-transform: uppercase;
+	text-transform: lowercase;
 	letter-spacing: 1px;
 	font-size: 1.8rem;
 	font-weight: 500;
+
+	&:after {
+		content: '';
+		position: absolute;
+		top: 55%;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background: $white;
+	}
 }

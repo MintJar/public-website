@@ -1,0 +1,15 @@
+.grid__container {
+	font-size: 0;
+}
+
+.grid__item {
+	display: inline-block;
+}
+
+.by__four {
+	width: 24%;
+
+	&:not( :last-of-type ) {
+		margin-right: 1%;
+	}
+}

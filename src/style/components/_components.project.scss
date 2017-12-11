@@ -1,0 +1,25 @@
+.project {
+	font-size: 1rem;
+	text-decoration: none;
+	color: $black;
+}
+
+.project__graphic {
+	margin: ($gutter / 2) 0;
+
+	//transform: rotate( 45deg );
+	// border-radius: 30%;
+	// background: black;
+}
+
+.project__header {
+
+}
+
+.project__caption {
+	line-height: 1.4rem;
+}
+
+.project__label {
+
+}

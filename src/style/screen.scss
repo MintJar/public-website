@@ -12,9 +12,10 @@
 /* ELEMENTS */
 @import 'elements/elements.page';
 @import 'elements/elements.headings';
+@import 'elements/elements.typography';
 
 /* OBJECTS */
-
+@import 'objects/objects.grid';
 
 /* COMPONENTS */
 @import 'components/components.header';
@@ -22,6 +23,7 @@
 @import 'components/components.nav';
 @import 'components/components.content';
 @import 'components/components.canvas';
+@import 'components/components.project';
 @import 'components/components.footer';
 
 /* UTILITIES */
