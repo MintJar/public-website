@@ -54,5 +54,5 @@ function setUpCanvas() {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-	setUpCanvas();
+	// setUpCanvas();
 });

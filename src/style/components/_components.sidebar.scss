@@ -20,13 +20,28 @@
 	font-size: 1.8rem;
 	font-weight: 500;
 
-	&:after {
-		content: '';
-		position: absolute;
-		top: 55%;
-		right: 0;
-		bottom: 0;
-		left: 0;
-		background: $white;
+	& .code {
+		font-family: monospace;
 	}
+	// &:before {
+	// 	content: '';
+	// 	position: absolute;
+	// 	top: 55%;
+	// 	right: 0;
+	// 	bottom: 0;
+	// 	left: 0;
+	// 	background: $white;
+	// }
+
+	// &:after {
+	// 	content: 'Mint Jar';
+	// 	position: absolute;
+	// 	left: 30px;
+	// 	height: 50%;
+
+	// 	font-family: monospace;
+	// 	letter-spacing: -.01rem;
+
+	// 	overflow: hidden;
+	// }
 }

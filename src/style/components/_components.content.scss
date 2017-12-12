@@ -4,8 +4,6 @@
 	min-height: calc( 100vh - 10px );
 	margin-left: #{ $sidebar-width };
 	padding: $gutter;
-
-	// background: green;
 }
 
 .wrapper {
@@ -18,13 +16,9 @@
 	margin: 0 -#{ $gutter };
 	padding: $gutter;
 
-	&--dark {
-		color: $white;
-		background: $black;
-	}
+	color: $white;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
 
-	&--light {
-		color: $black;
-		background: $light-grey;	
-	}
+	background: $black;
 }
