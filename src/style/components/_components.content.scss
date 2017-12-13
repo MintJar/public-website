@@ -4,6 +4,7 @@
 	min-height: calc( 100vh - 10px );
 	margin-left: #{ $sidebar-width };
 	padding: $gutter;
+	background: $white;
 }
 
 .wrapper {

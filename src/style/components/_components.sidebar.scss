@@ -4,31 +4,34 @@
 	display: inline-block;
 	width: $sidebar-width;
 	height: calc( 100vh );
-
 	vertical-align: top;
 
 	-webkit-box-shadow: 0 0 15px 1px rgba(0,0,0,.1);
 	box-shadow: 0 0 15px 1px rgba(0,0,0,.1);
+	background: $white;
 }
 
 .sidebar__logo {
 	position: relative;
+	display: inline-block;
 	padding: $gutter;
 
-	text-transform: lowercase;
+	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-size: 1.8rem;
 	font-weight: 500;
+	text-decoration: none;
+	color: $black;
 
-	& .code {
-		font-family: monospace;
-	}
+	// & .code {
+	// 	font-family: monospace;
+	// }
 	// &:before {
 	// 	content: '';
 	// 	position: absolute;
-	// 	top: 55%;
+	// 	top: 46%;
 	// 	right: 0;
-	// 	bottom: 0;
+	// 	bottom: 43%;
 	// 	left: 0;
 	// 	background: $white;
 	// }
