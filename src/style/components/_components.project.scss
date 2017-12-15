@@ -7,8 +7,8 @@
 	margin: ($gutter / 2) 0;
 
 	//transform: rotate( 45deg );
-	// border-radius: 30%;
-	// background: black;
+	border-radius: 3px;
+	background: $white;
 }
 
 .project__header {
@@ -17,6 +17,7 @@
 
 .project__caption {
 	line-height: 1.4rem;
+	margin-bottom: $gutter / 2;
 }
 
 .project__label {
