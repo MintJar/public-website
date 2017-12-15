@@ -7,7 +7,8 @@ const gulp = require('gulp'),
 	cleanCss = require('gulp-clean-css'),
 	notify = require('gulp-notify'),
 	w3cjs = require('gulp-w3cjs'),
-	htmlmin = require('gulp-htmlmin');
+	htmlmin = require('gulp-htmlmin'),
+	webp = require('gulp-webp');
 
 gulp.task('css', function() {
 	gulp.src('./src/style/screen.scss')
@@ -38,6 +39,12 @@ gulp.task('html', function() {
         }))
     	.pipe(gulp.dest('./dist'));;
 	livereload.reload();
+});
+
+gulp.task('webp', function() {
+	return gulp.src('src/media/*')
+        .pipe(webp())
+        .pipe(gulp.dest('dist/media'));
 });
 
 function onError(err) {

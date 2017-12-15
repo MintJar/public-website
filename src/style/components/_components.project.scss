@@ -4,11 +4,13 @@
 }
 
 .project__graphic {
+	display: block;
+	width: 100%;
+	height: auto;
 	margin: ($gutter / 2) 0;
 
 	//transform: rotate( 45deg );
 	border-radius: 3px;
-	background: $white;
 }
 
 .project__header {
