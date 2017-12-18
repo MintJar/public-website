@@ -1,5 +1,6 @@
 .project {
-	padding: $gutter / 2;
+	position: relative;
+	// padding: $gutter / 2;
 	box-sizing: border-box;
 	font-size: 1rem;
 
@@ -10,24 +11,57 @@
 		text-decoration: none;
 	}
 
-	&:hover {
-		transform: rotateY( -20deg );
+	&:hover .project__depth__front {
+		transform: rotateY( -40deg );
 		border-radius: 2px;
+	}
+
+	&:hover .project__depth__back {
+		transform: translateX( 5px );
+	}
+}
+
+.project__depth {
+
+	&__front {
+		position: relative;
+		
+		padding: $gutter / 2;
+
+		background: $white;
+
+		transform-origin: 0 50%;
+		transition: transform 400ms cubic-bezier(1, 0.46, 0.32, 1.29);;
+
+		border-radius: 2px;
+		z-index: 10;
+	}
+
+	&__back {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+
+		transition: transform 100ms ease-out;
+		border-radius: 1px;
+		z-index: 5;
 	}
 }
 
 .project__graphic {
 	display: block;
-	width: calc( 100% + #{$gutter} );
-	height: auto;
-	margin-top: -($gutter / 2);
-	margin-left: -($gutter / 2);
-	margin-bottom: ($gutter / 2);
-	margin-right: -($gutter / 2);
+	// width: calc( 100% + #{$gutter} );
+	width: 100%;
+	height: 100%;
+	// margin-top: -($gutter / 2);
+	// margin-left: -($gutter / 2);
+	// margin-bottom: ($gutter / 2);
+	// margin-right: -($gutter / 2);
 	//transform: rotate( 45deg );
 	// border-radius: 3px;
 	// transition: all 100ms ease-out;
 	// transition-property: transform, border-radius;
+	object-fit: cover;
 }
 
 .project__header {
