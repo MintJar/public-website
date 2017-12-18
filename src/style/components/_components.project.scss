@@ -1,16 +1,33 @@
 .project {
+	padding: $gutter / 2;
+	box-sizing: border-box;
 	font-size: 1rem;
-	text-decoration: none;
+
+	background: $white;
+
+	& a {
+		color: $black;
+		text-decoration: none;
+	}
+
+	&:hover {
+		transform: rotateY( -20deg );
+		border-radius: 2px;
+	}
 }
 
 .project__graphic {
 	display: block;
-	width: 100%;
+	width: calc( 100% + #{$gutter} );
 	height: auto;
-	margin: ($gutter / 2) 0;
-
+	margin-top: -($gutter / 2);
+	margin-left: -($gutter / 2);
+	margin-bottom: ($gutter / 2);
+	margin-right: -($gutter / 2);
 	//transform: rotate( 45deg );
-	border-radius: 3px;
+	// border-radius: 3px;
+	// transition: all 100ms ease-out;
+	// transition-property: transform, border-radius;
 }
 
 .project__header {
@@ -22,7 +39,7 @@
 	margin-bottom: $gutter / 2;
 }
 
-.project__label {
+a.project__label {
 	display: inline-block;
 	margin-right: 4px;
 	padding: 3px 5px;
@@ -32,6 +49,7 @@
 
 	font-size: .6rem;
 	text-transform: uppercase;
+	text-decoration: none;
 	color: $black;
 	font-weight: 600;
 
