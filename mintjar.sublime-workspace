@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"trans",
+				"transition"
+			],
+			[
 				"tranf",
 				"transform"
 			],
@@ -46,10 +50,6 @@
 			[
 				"selec",
 				"selectedDate"
-			],
-			[
-				"trans",
-				"translateZ()"
 			],
 			[
 				"to",
@@ -709,6 +709,8 @@
 	],
 	"file_history":
 	[
+		"/Users/martijnloth/Sites/public-website/src/style/components/_components.project.scss",
+		"/Users/martijnloth/Sites/public-website/src/index.html",
 		"/Users/martijnloth/Sites/public-website/src/style/elements/_elements.typography.scss",
 		"/Users/martijnloth/Sites/public-website/src/style/elements/_elements.headings.scss",
 		"/Users/martijnloth/Sites/public-website/src/style/utilities/_utilities.highlight.scss",
@@ -718,13 +720,11 @@
 		"/Users/martijnloth/Sites/public-website/src/script/app.js",
 		"/Users/martijnloth/Sites/public-website/src/style/components/_components.sidebar.scss",
 		"/Users/martijnloth/Sites/public-website/src/style/settings/_settings.colors.scss",
-		"/Users/martijnloth/Sites/public-website/src/style/components/_components.project.scss",
 		"/Users/martijnloth/Sites/public-website/src/style/elements/_elements.page.scss",
 		"/Users/martijnloth/Sites/public-website/src/style/settings/_settings.global.scss",
 		"/Users/martijnloth/Sites/public-website/src/style/components/_components.content.scss",
 		"/Users/martijnloth/Sites/public-website/src/style/components/_components.footer.scss",
 		"/Users/martijnloth/Sites/public-website/src/style/objects/_objects.grid.scss",
-		"/Users/martijnloth/Sites/public-website/src/index.html",
 		"/Users/martijnloth/Sites/public-website/node_modules/node-sass/test/fixtures/sass-path/orange/colors.scss",
 		"/private/var/folders/d5/25kwssss63g3v0sh9srq22_m0000gn/T/840e5b39-42c7-4e4d-81fe-7bb3b62a6430/web/www.nmct.be/opleiding/wp-content/themes/bigcitylife/footer.php",
 		"/Users/martijnloth/Sites/public-website/dist/index.html",
@@ -840,11 +840,11 @@
 	],
 	"find":
 	{
-		"height": 31.0
+		"height": 33.0
 	},
 	"find_in_files":
 	{
-		"height": 113.0,
+		"height": 187.0,
 		"where_history":
 		[
 		]
@@ -854,6 +854,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"project__label",
 			"<span class=\"project__label\"",
 			"<span class=\"project__label\">🎥</span>",
 			"components",
@@ -898,7 +899,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 31.0
+		"height": 33.0
 	},
 	"input":
 	{
@@ -939,7 +940,7 @@
 	"project": "mintjar.sublime-project",
 	"replace":
 	{
-		"height": 58.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -948,6 +949,14 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"index.",
+				"src/index.html"
+			],
+			[
+				"projec",
+				"src/style/components/_components.project.scss"
+			],
 			[
 				"typo",
 				"src/style/elements/_elements.typography.scss"
@@ -987,14 +996,6 @@
 			[
 				"setti",
 				"src/style/settings/_settings.global.scss"
-			],
-			[
-				"index.",
-				"src/index.html"
-			],
-			[
-				"projec",
-				"src/style/components/_components.project.scss"
 			],
 			[
 				"inde",
