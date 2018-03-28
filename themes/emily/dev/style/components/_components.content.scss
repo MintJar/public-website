@@ -1,0 +1,10 @@
+.c-content {
+    width: calc( 50vw );
+    flex-wrap: wrap;
+    align-content: baseline;
+    align-items: center;
+    display: flex;
+
+    box-sizing: border-box;
+    padding: $gutter;
+}

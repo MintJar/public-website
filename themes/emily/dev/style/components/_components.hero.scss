@@ -1,0 +1,10 @@
+.c-hero {
+    height: calc( 100vh );
+    width: calc( 50vw );
+    object-fit: scale-down;
+    object-position: center center;
+
+    background: black;
+
+    overflow: hidden;
+}

@@ -1,0 +1,4 @@
+baseURL = 'https://mintjar.github.io/'
+languageCode = 'en-us'
+title = 'MintJar'
+theme = 'emily'
